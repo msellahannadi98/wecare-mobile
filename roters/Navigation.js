@@ -1,0 +1,30 @@
+import React from 'react';
+import { createStackNavigator } from 'react-navigation-stack';
+import { createAppContainer } from 'react-navigation';
+import Dashboard from '../src/Dashboard/Dashboard';
+import NextClinic from '../src/NextClinic/Nextclinic';
+
+const screens = {
+    Dashboard: {
+        screen: Dashboard,
+        navigationOptions: {
+            title: 'Dashboard'
+        }
+    },
+    NextClinic: {
+        screen: NextClinic,
+        navigationOptions: {
+            title: 'Next Clinic'
+        }
+    }
+
+}
+
+const Navigation = createStackNavigator(screens, {
+    defaultNavigationOptions: {
+        
+    }
+});
+
+export default createAppContainer(Navigation); 
+
