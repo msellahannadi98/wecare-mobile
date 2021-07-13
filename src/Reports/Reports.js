@@ -8,7 +8,7 @@ const Separator = () => (
     <View style={[styles.separator, {marginVertical: 0}]} />
   );
 
-
+ 
 export default function Reports(){
 
     const arrow = 'chevron-right';

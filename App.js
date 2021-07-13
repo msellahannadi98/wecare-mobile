@@ -12,12 +12,12 @@ import History from './src/History/History';
 export default function App(){
   return(
   //  <Home/>
-  // <Navigation/>
+  <Navigation/>
   // <Dashboard/>
   // <Login/>
   // <Profile/>
   // <Reports/>
-  <History/>
+  // <History/>
       
     
   )
