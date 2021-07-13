@@ -13,6 +13,9 @@ export default function Dashboard({ navigation }){
 
     const viewNext = () => {
         navigation.navigate('NextClinic');
+    } 
+    const viewClinic = () => {
+        navigation.navigate('ViewClinic');
     }  
 
     return(
@@ -86,7 +89,7 @@ export default function Dashboard({ navigation }){
                                     </View>
                                 </View>
                                 <View style={{width: 100, alignSelf: 'flex-end', margin: 10}}>
-                                    <ActionButton text='View >>'/>
+                                    <ActionButton text='View >>' onPress={viewClinic}/>
                                 </View>
                             </View>
 

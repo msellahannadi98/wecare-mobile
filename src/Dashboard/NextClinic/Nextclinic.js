@@ -1,8 +1,8 @@
 import React from 'react';
 import { Text, View, StyleSheet, SafeAreaView, ScrollView, StatusBar, Image } from 'react-native';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
-import { styles } from '../../styles/global';
-import RequestButton from '../../components/Button';
+import { styles } from '../../../styles/global';
+import RequestButton from '../../../components/Button';
 
 
 export default function Profile(){
