@@ -106,5 +106,13 @@ export const styles = StyleSheet.create({
       borderBottomColor: '#737373',
       borderBottomWidth: StyleSheet.hairlineWidth,
   },
+  boxBorder: { 
+    borderWidth: 1, 
+    borderColor: '#1B3E72',
+    width: 300, 
+    height: 400,
+    borderRadius: 5,
+    justifyContent: 'center',
+  },
 });
 

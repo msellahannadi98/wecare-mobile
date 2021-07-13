@@ -9,14 +9,16 @@ import ProfileStack from './roters/ProfileStack';
 import Profile from './src/Profile/Profile';
 import Reports from './src/Reports/Reports';
 import History from './src/History/History';
+import ReportStack from './roters/ReportStack';
 
 export default function App(){
   return(
 
   // // <Home/>  
   // // <Login/>
-  <Navigation/>
+  // <Navigation/>
   // <ProfileStack/>
+  <ReportStack/>
   // <Dashboard/>
   // <Profile/>
   // <Reports/>
