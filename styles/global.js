@@ -10,6 +10,14 @@ export const styles = StyleSheet.create({
     marginVertical: 8,
     lineHeight: 20,
   },
+  row: {
+    flexDirection: 'row',
+    marginVertical: 15,
+    // backgroundColor: 'gray',
+  },
+  left: {
+    alignSelf: 'flex-end',
+  },
   input: {
     borderWidth: 1,
     borderColor: '#ddd',
@@ -54,16 +62,34 @@ export const styles = StyleSheet.create({
       marginLeft: 5,
       marginRight: 5,
   },
+  title: {
+    color: '#1B3E72',
+    fontSize: 30,
+    marginLeft: 5,
+    marginRight: 5,
+  },
   p: {
       color: '#1B3E72',
       paddingBottom: 3,
+      fontSize: 15,
   },
+  pBold: {
+    color: '#1B3E72',
+    paddingBottom: 3,
+    fontSize: 18,
+    fontWeight: 'bold',
+},
   cardI: {
       // backgroundColor: '#FFF',
       margin: 10,
       borderRadius: 10,
       paddingLeft: 20,
       paddingTop: 5,
+  },
+  whitecard: {
+    margin: 30,
+    marginVertical: 10,
+    marginRight: 10,    
   },
   separator: {
       marginVertical: 8,
