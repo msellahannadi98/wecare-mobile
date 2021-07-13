@@ -18,7 +18,7 @@ export default function Profile(){
                 <ScrollView style={styles.scrollView}>
                     <View style={{padding: 10}}>
                         <View style={[styles.mainCard, {flexDirection: 'row'}]}>
-                            <Text style={[styles.title, {fontWeight: 'bold'}]}>Eye Clinic</Text>
+                            <Text style={[styles.title, {fontWeight: 'bold'}]}>Cardiology Clinic</Text>
                         </View>
                         <View>
                             <View style={styles.whitecard}>

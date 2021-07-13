@@ -9,9 +9,13 @@ const Separator = () => (
   );
 
 
-export default function History(){
+export default function History({navigation}){
 
     const arrow = 'chevron-right';
+
+    const viewClinic = () => {
+        navigation.navigate('ViewClinic');
+    }
 
     return (
         <View style={[styles.container, {
@@ -45,7 +49,7 @@ export default function History(){
                                         <Text style={styles.p18}>Cardiology</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'} onPress={viewClinic} onPress={viewClinic}/>
                                     </View>
                                 </View>
                                 <Separator/> 
@@ -58,7 +62,7 @@ export default function History(){
                                         <Text style={styles.p18}>Cardiology</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'} onPress={viewClinic}/>
                                     </View>
                                 </View>
                                 <Separator/>
@@ -71,7 +75,7 @@ export default function History(){
                                         <Text style={styles.p18}>Cardiology</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'} onPress={viewClinic}/>
                                     </View>
                                 </View>
                                 <Separator/>
@@ -84,7 +88,7 @@ export default function History(){
                                         <Text style={styles.p18}>Cardiology</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'} onPress={viewClinic}/>
                                     </View>
                                 </View>
                                 <Separator/>
@@ -97,7 +101,7 @@ export default function History(){
                                         <Text style={styles.p18}>Cardiology</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'} onPress={viewClinic}/>
                                     </View>
                                 </View>
                                 <Separator/>
@@ -110,7 +114,7 @@ export default function History(){
                                         <Text style={styles.p18}>Cardiology</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'} onPress={viewClinic}/>
                                     </View>
                                 </View>
                                 <Separator/>
@@ -123,7 +127,7 @@ export default function History(){
                                         <Text style={styles.p18}>Cardiology</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'} onPress={viewClinic}/>
                                     </View>
                                 </View>
                                 <Separator/>
@@ -136,7 +140,7 @@ export default function History(){
                                         <Text style={styles.p18}>Cardiology</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'} onPress={viewClinic}/>
                                     </View>
                                 </View>
                                 <Separator/>
@@ -149,7 +153,7 @@ export default function History(){
                                         <Text style={styles.p18}>Cardiology</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'} onPress={viewClinic}/>
                                     </View>
                                 </View>
                                 <Separator/>
@@ -162,7 +166,7 @@ export default function History(){
                                         <Text style={styles.p18}>Cardiology</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'} onPress={viewClinic}/>
                                     </View>
                                 </View>
                                 <Separator/>
@@ -175,7 +179,7 @@ export default function History(){
                                         <Text style={styles.p18}>Cardiology</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'} onPress={viewClinic}/>
                                     </View>
                                 </View>
                                 <Separator/>
@@ -188,7 +192,7 @@ export default function History(){
                                         <Text style={styles.p18}>Cardiology</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'} onPress={viewClinic}/>
                                     </View>
                                 </View>
                                 <Separator/>
@@ -201,7 +205,7 @@ export default function History(){
                                         <Text style={styles.p18}>Cardiology</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'} onPress={viewClinic}/>
                                     </View>
                                 </View>
                                 <Separator/>
@@ -214,7 +218,7 @@ export default function History(){
                                         <Text style={styles.p18}>Cardiology</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'} onPress={viewClinic}/>
                                     </View>
                                 </View>
                                 <Separator/>
@@ -227,7 +231,7 @@ export default function History(){
                                         <Text style={styles.p18}>Cardiology</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'} onPress={viewClinic}/>
                                     </View>
                                 </View>
                                 <Separator/>
@@ -240,7 +244,7 @@ export default function History(){
                                         <Text style={styles.p18}>Cardiology</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'} onPress={viewClinic}/>
                                     </View>
                                 </View>
                                 <Separator/>
@@ -253,7 +257,7 @@ export default function History(){
                                         <Text style={styles.p18}>Cardiology</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'} onPress={viewClinic}/>
                                     </View>
                                 </View>
                                 <Separator/>
@@ -266,7 +270,7 @@ export default function History(){
                                         <Text style={styles.p18}>Cardiology</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={30} color={'#1B3E72'} onPress={viewClinic}/>
                                     </View>
                                 </View>
                                 <Separator/>

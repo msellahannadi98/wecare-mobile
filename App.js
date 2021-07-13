@@ -10,6 +10,7 @@ import Profile from './src/Profile/Profile';
 import Reports from './src/Reports/Reports';
 import History from './src/History/History';
 import ReportStack from './roters/ReportStack';
+import HistoryStack from './roters/HistoryStack';
 
 export default function App(){
   return(
@@ -18,7 +19,8 @@ export default function App(){
   // // <Login/>
   // <Navigation/>
   // <ProfileStack/>
-  <ReportStack/>
+  // <ReportStack/>
+  <HistoryStack/>
   // <Dashboard/>
   // <Profile/>
   // <Reports/>
