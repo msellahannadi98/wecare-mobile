@@ -5,11 +5,16 @@ import { styles } from '../../styles/global';
 import ActionButton from '../../components/Button';
 
 
-export default function Profile(){
+export default function Profile({navigation}){
 
     const arrow = 'chevron-right';
 
+    const editField = () => {
+        navigation.navigate('EditProfile');
+    }
+
     return (
+
         <View style={[styles.container, {
             flexDirection: "column"
           }]}>
@@ -36,7 +41,7 @@ export default function Profile(){
                                         <Text style={styles.pBold}>No 17, Galle Road, Wadduwa</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={35} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={35} color={'#1B3E72'} onPress={editField}/>
                                     </View>
                                 </View>
                                 <View style={styles.row}>
@@ -45,7 +50,7 @@ export default function Profile(){
                                         <Text style={styles.pBold}>075 559 3998</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={35} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={35} color={'#1B3E72'} onPress={editField}/>
                                     </View>
                                 </View>
                                 <View style={styles.row}>
@@ -54,7 +59,7 @@ export default function Profile(){
                                         <Text style={styles.pBold}>nuwan@gmail.com</Text>
                                     </View>
                                     <View style={{flex: 1, justifyContent: 'center'}}>
-                                        <FontAwesome5  name={arrow} size={35} color={'#1B3E72'}/>
+                                        <FontAwesome5  name={arrow} size={35} color={'#1B3E72'} onPress={editField}/>
                                     </View>
                                 </View>
                             </View>
