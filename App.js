@@ -7,6 +7,7 @@ import Login from './src/Login/Login';
 import Navigation from './roters/Navigation';
 import Profile from './src/Profile/Profile';
 import Reports from './src/Reports/Reports';
+import History from './src/History/History';
 
 export default function App(){
   return(
@@ -15,7 +16,8 @@ export default function App(){
   // <Dashboard/>
   // <Login/>
   // <Profile/>
-  <Reports/>
+  // <Reports/>
+  <History/>
       
     
   )
