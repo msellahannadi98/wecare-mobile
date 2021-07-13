@@ -30,7 +30,7 @@ export const styles = StyleSheet.create({
     marginTop: 10,
     marginBottom: 10,
     fontSize: 15,
-    borderRadius: 100,
+    borderRadius: 10,
   },
   scrollContainer: {
     flex: 1,
@@ -50,7 +50,7 @@ export const styles = StyleSheet.create({
   card: {
       backgroundColor: '#C4DFE8',
       margin: 10,
-      borderRadius: 20,
+      borderRadius: 10,
   },
   cardTitle: {
       backgroundColor: '#1B3E72',
@@ -108,12 +108,3 @@ export const styles = StyleSheet.create({
   },
 });
 
-// export const images = {
-//   ratings: {
-//     '1': require('../assets/rating-1.png'),
-//     '2': require('../assets/rating-2.png'),
-//     '3': require('../assets/rating-3.png'),
-//     '4': require('../assets/rating-4.png'),
-//     '5': require('../assets/rating-5.png'),
-//   }
-// };

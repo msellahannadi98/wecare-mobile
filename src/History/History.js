@@ -48,7 +48,7 @@ export default function History(){
                                         <FontAwesome5  name={arrow} size={30} color={'#1B3E72'}/>
                                     </View>
                                 </View>
-                                <Separator/>
+                                <Separator/> 
 
                                 <View style={[styles.row, {marginVertical: 10}]}>
                                     <View style={[{flex: 6,  justifyContent: 'center'}]}>
