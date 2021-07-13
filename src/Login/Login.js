@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, TextInput, View, Text, Image, SafeAreaView, ScrollView } from 'react-native';
-import { globalStyles } from '../../styles/global';
+import {styles as globalStyles } from '../../styles/global';
 import { Formik } from 'formik';
 import LogButton from '../../components/ButtonLogin';
 import { auto } from 'async';
@@ -11,7 +11,7 @@ export default function Login() {
     
     <SafeAreaView style={{flex: 1}}>
         <ScrollView>
-            <View style={[globalStyles.container, {backgroundColor: '#679297', justifyContent: 'center', paddingBottom: 50}]}>
+            <View style={[globalStyles.container, {backgroundColor: '#679297', justifyContent: 'center', padding: 20, paddingBottom: 50}]}>
                 <Image style={{width: 300, height: 150, alignSelf: 'center',}}
                             source={require('./wecarelogo.png')}
                     />

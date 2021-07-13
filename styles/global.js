@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-export const globalStyles = StyleSheet.create({
+export const styles = StyleSheet.create({
   titleText: {
     fontSize: 10,
     fontWeight: 'bold',
@@ -9,10 +9,6 @@ export const globalStyles = StyleSheet.create({
   paragraph: {
     marginVertical: 8,
     lineHeight: 20,
-  },
-  container: {
-    flex: 1,
-    padding: 20,
   },
   input: {
     borderWidth: 1,
@@ -23,6 +19,56 @@ export const globalStyles = StyleSheet.create({
     marginBottom: 10,
     fontSize: 15,
     borderRadius: 100,
+  },
+  scrollContainer: {
+    flex: 1,
+    // paddingTop: StatusBar.currentHeight,
+    paddingTop: 20,
+  },
+  scrollView: { 
+  },
+  container: {
+      flex: 1,
+      // backgroundColor: '#459365'
+  },
+  mainCard: {
+      // backgroundColor: '#459365',
+      flex: 1,
+  },
+  card: {
+      backgroundColor: '#C4DFE8',
+      margin: 10,
+      borderRadius: 20,
+  },
+  cardTitle: {
+      backgroundColor: '#1B3E72',
+      margin: 10,        
+      marginBottom: 0,
+      borderRadius: 10,
+      padding: 5,
+      alignContent: 'center',
+  },
+  H1: {
+      color: '#fff',
+      fontSize: 20,
+      marginLeft: 5,
+      marginRight: 5,
+  },
+  p: {
+      color: '#1B3E72',
+      paddingBottom: 3,
+  },
+  cardI: {
+      // backgroundColor: '#FFF',
+      margin: 10,
+      borderRadius: 10,
+      paddingLeft: 20,
+      paddingTop: 5,
+  },
+  separator: {
+      marginVertical: 8,
+      borderBottomColor: '#737373',
+      borderBottomWidth: StyleSheet.hairlineWidth,
   },
 });
 

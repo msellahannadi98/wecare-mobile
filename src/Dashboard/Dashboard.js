@@ -1,5 +1,6 @@
 import React from 'react';
 import{ Text, View, StyleSheet, SafeAreaView, ScrollView, StatusBar, Image } from 'react-native'; 
+import { styles } from '../../styles/global';
 import ActionButton from '../../components/Button';
 import Cal from '../../components/Calender'; 
 
@@ -46,7 +47,7 @@ export default function Dashboard({ navigation }){
                                     <ActionButton text='Request >>' onPress={viewNext}/>
                                 </View>
                             </View>
-
+                        {/* <view></view> */}
                             <View style={{alignSelf: 'center', padding: 10}}>
                                 <Cal/>
                             </View>
@@ -97,56 +98,3 @@ export default function Dashboard({ navigation }){
     )
 }
 
-const styles = StyleSheet.create({
-    scrollContainer: {
-        flex: 1,
-        // paddingTop: StatusBar.currentHeight,
-        paddingTop: 20,
-      },
-      scrollView: { 
-    },
-    container: {
-        flex: 1,
-        // backgroundColor: '#459365'
-    },
-    mainCard: {
-        // backgroundColor: '#459365',
-        flex: 1,
-    },
-    card: {
-        backgroundColor: '#C4DFE8',
-        margin: 10,
-        borderRadius: 20,
-    },
-    cardTitle: {
-        backgroundColor: '#1B3E72',
-        margin: 10,        
-        marginBottom: 0,
-        borderRadius: 10,
-        padding: 5,
-        alignContent: 'center',
-    },
-    H1: {
-        color: '#fff',
-        fontSize: 20,
-        marginLeft: 5,
-        marginRight: 5,
-    },
-    p: {
-        color: '#1B3E72',
-        paddingBottom: 3,
-    },
-    cardI: {
-        // backgroundColor: '#FFF',
-        margin: 10,
-        borderRadius: 10,
-        paddingLeft: 20,
-        paddingTop: 5,
-    },
-    separator: {
-        marginVertical: 8,
-        borderBottomColor: '#737373',
-        borderBottomWidth: StyleSheet.hairlineWidth,
-    },
-    
-})
