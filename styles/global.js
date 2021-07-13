@@ -15,6 +15,10 @@ export const styles = StyleSheet.create({
     marginVertical: 15,
     // backgroundColor: 'gray',
   },
+  column: {
+    flexDirection: 'column',
+    marginVertical: 15,
+  },
   left: {
     alignSelf: 'flex-end',
   },
@@ -73,12 +77,18 @@ export const styles = StyleSheet.create({
       paddingBottom: 3,
       fontSize: 15,
   },
+  p18: {
+    color: '#1B3E72',
+    paddingBottom: 3,
+    fontSize: 20,
+    fontWeight: 'bold',
+  },
   pBold: {
     color: '#1B3E72',
     paddingBottom: 3,
     fontSize: 18,
     fontWeight: 'bold',
-},
+  },
   cardI: {
       // backgroundColor: '#FFF',
       margin: 10,

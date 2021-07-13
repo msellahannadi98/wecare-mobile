@@ -6,6 +6,7 @@ import Home from './src/Home/Home';
 import Login from './src/Login/Login';
 import Navigation from './roters/Navigation';
 import Profile from './src/Profile/Profile';
+import Reports from './src/Reports/Reports';
 
 export default function App(){
   return(
@@ -13,7 +14,8 @@ export default function App(){
   // <Navigation/>
   // <Dashboard/>
   // <Login/>
-  <Profile/>
+  // <Profile/>
+  <Reports/>
       
     
   )
